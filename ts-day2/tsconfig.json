@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        //target code transation
+        "target": "ES5",
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        //output should not be generated until errors are removed or not there.
+        "noEmitOnError": true,
+        //comments will not be generated in js files
+        "removeComments": true,
+        //location where the output files should be generated
+        //"outDir": "/output",
+        //Raise error on expressions and declarations with an implied any type.
+        "noImplicitAny": true,
+        //you can use more api or more data types from this config section
+        "lib": [
+            "DOM",
+            "ES2015"
+        ],
+        "downlevelIteration": true,
+        //it will make strict mode for each javascript file.
+        "strict": true,
+        //to debug. it will make ts file available on browser.
+        //"sourceMap": true,
+        "strictNullChecks": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

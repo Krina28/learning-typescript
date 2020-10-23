@@ -1,0 +1,15 @@
+{
+  "name": "2_motivation",
+  "version": "1.0.0",
+  "description": "Learning Typescript",
+  "private": true,
+  "scripts": {
+    "version": "tsc -v",
+    "compile": "tsc -w"
+  },
+  "author": "Krina Soni",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
